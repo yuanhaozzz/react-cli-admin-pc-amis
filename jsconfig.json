@@ -1,0 +1,25 @@
+{
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
+  "include": [
+    "src/**/*"
+, "src/utils/.js"  ],
+  "compilerOptions": {
+    "baseUrl": "./",
+    "target": "es6",
+    "experimentalDecorators": true,
+    "paths": {
+      "@*": ["./src/*"],
+      "public/*": ["public/*"],
+      "src/*": ["src/*"],
+      "components": ["src/components/*"],
+      "utils": ["src/utils/*"],
+      "user": ["src/utils/user.js"],
+      "srcConfig": ["src/config/*"],
+      "entry": ["src/entry/*"],
+      "assets": ["src/assets/*"]
+    }
+  }
+}

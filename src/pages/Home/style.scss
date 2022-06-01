@@ -1,0 +1,24 @@
+$loadingBackground: #00d8c9;
+
+html,body,#root{
+        height: 100%;
+}
+
+.home-wrapper{
+    height: 100%;
+    h2{
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 50px;
+    }
+    .home-content{
+       padding: 20px 0;
+       p{
+           margin-right: 20px;
+       }
+    }
+    .home-jump-to{
+        margin: 20px auto;
+    }
+}

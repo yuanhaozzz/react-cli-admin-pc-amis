@@ -1,0 +1,43 @@
+html, body, #root{
+    height: 100%;
+}
+
+.login-wrapper{
+    height: 100%;
+    position: relative;
+    .login-top{
+        height: 50%;
+        background-color: #008ead;
+    }
+    .login-container{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);    
+        width: 400px;
+        text-align: center;
+        border: 1px solid #e7e7e7;
+        background-color: #ffffff;
+        padding: 30px 40px 0;
+        .login-head-image{
+            position: absolute;
+            width: 97px;
+            height: 92px;
+            top: -87px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .login-hand-image{
+            width: 30px;
+            height: 20px;
+            position: absolute;
+            top: -12px;
+        }
+        .left{
+            left: 25%;
+        }
+        .right{
+            right: 25%;
+        }
+    }
+}

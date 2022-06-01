@@ -1,0 +1,14 @@
+$loadingBackground: #00d8c9;
+
+html,body,#root{
+        height: 100%;
+}
+.not-fount-wrapper{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    font-weight: bold;
+    font-size: 120px;
+}
