@@ -1,24 +1,38 @@
 import { lazy } from "react";
 
-// 你的一级菜单
-const home = [
+// 菜单1
+const Menu1 = [
   {
     name: "首页",
-    path: "/home",
+    path: "/menu1/home",
     exact: true,
-    component: lazy(() => import("@/pages/Home")),
+    component: lazy(() => import("@/pages/Menu1/Home")),
   },
-];
-
-// 你的一级菜单
-const Test = [
   {
     name: "测试",
-    path: "/test",
-    component: lazy(() => import("@/pages/Test")),
+    path: "/menu1/test",
+    component: lazy(() => import("@/pages/Menu1/Test")),
   },
 ];
 
-const routes = [...home, ...Test];
+// 过渡菜单
+const Transition = [
+  {
+    name: "页面过渡",
+    path: "/transition/page",
+    component: lazy(() => import("@/pages/Transition/page")),
+  },
+];
+
+// amis页面
+const AmisPage = [
+  {
+    name: "amis",
+    path: "/amis/page1",
+    component: lazy(() => import("@/pages/AmisPages/Page1")),
+  },
+];
+
+const routes = [...Menu1, ...Transition, ...AmisPage];
 
 export default routes;

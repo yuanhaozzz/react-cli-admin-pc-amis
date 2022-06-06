@@ -1,6 +1,5 @@
 import React, { Component, Suspense } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-
 import "./style.scss";
 import RouterList from "src/router/config";
 

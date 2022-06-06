@@ -48,6 +48,8 @@ function getWebpackAliases(options = {}) {
     return {
       src: paths.appSrc,
       "@": paths.appSrc,
+      utils: paths.utils,
+      node_modules: paths.appNodeModules,
     };
   }
 }
