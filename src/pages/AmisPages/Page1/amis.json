@@ -1,0 +1,53 @@
+{
+    "type": "page",
+    "body": {
+      "type": "form",
+      "title": "label对齐模式",
+      "mode": "horizontal",
+      "labelWidth": 120,
+      "body": [
+        {
+          "type": "input-email",
+          "name": "email",
+          "label": "邮",
+          "labelWidth": 200,
+          "required": true
+        },
+        {
+          "type": "input-password",
+          "name": "password",
+          "label": "密码",
+          "required": true
+        },
+        {
+          "type": "input-text",
+          "name": "address",
+          "label": "地址",
+          "mode": "inline"
+        },
+        {
+          "type": "input-text",
+          "name": "mailCode",
+          "label": "邮编",
+          "mode": "inline",
+          "labelWidth": 80
+        },
+        {
+          "type": "radios",
+          "name": "mailCode",
+          "label": "性别",
+          "mode": "row",
+          "options": [
+            {
+              "label": "Male",
+              "value": "male"
+            },
+            {
+              "label": "Female",
+              "value": "female"
+            }
+          ]
+        }
+      ]
+    }
+  }
